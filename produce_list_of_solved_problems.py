@@ -14,6 +14,6 @@ for file in listdir():
     problems.append([num,name,difficulty])
 problems.sort(key=lambda x: x[0])
 for prob in problems:
-    f.write('\n')
     f.write('|{0}|{1}|{2}|'.format(*prob))
+    f.write('\n')
 f.close()
