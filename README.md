@@ -3,5 +3,5 @@
 
 | # | Title | Difficulty |
 |---| ----- | ---------- |
-|1|two-sum|eas|
+|1|two-sum|easy|
 |8|string-to-integer-atoi|medium|
