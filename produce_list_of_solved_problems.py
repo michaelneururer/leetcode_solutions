@@ -6,7 +6,7 @@ for file in listdir():
         continue
     num, name, difficulty = file.rstrip('py').rstrip('.').split('_')
     problems.append([num,name,difficulty])
-problems.sort(key=lambda x: x[0])
+problems.sort(key=lambda x: int(x[0]))
 f.write(r'''
 ## My solutions to leet code problems.
 
