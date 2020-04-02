@@ -2,7 +2,7 @@ from os import listdir
 f = open('README.md','w')
 problems = []
 for file in listdir():
-    if file == 'produce_list_of_solved_problems.py' or file[-3:] != '.py':
+    if file == 'produce_list_of_solved_problems.py' or file[-3:] != '.py' or file[-10:] == 'NOTDONE.py':
         continue
     num, name, difficulty = file.rstrip('py').rstrip('.').split('_')
     problems.append([num,name,difficulty])
