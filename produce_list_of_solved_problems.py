@@ -4,7 +4,7 @@ problems = []
 for file in listdir():
     if file == 'produce_list_of_solved_problems.py' or file[-3:] != '.py' or file[-10:] == 'NOTDONE.py':
         continue
-    num, name, difficulty = file.rstrip('py').rstrip('.').split('_')
+    num, name, difficulty = file.rstrip('py').rstrip('.').split('_')[1], '-'.join(file.rstrip('py').rstrip('.').split('_')[2:-1]), file.rstrip('py').rstrip('.').split('_')[-1]
     problems.append([num,name,difficulty])
 problems.sort(key=lambda x: int(x[0]))
 f.write(r'''
