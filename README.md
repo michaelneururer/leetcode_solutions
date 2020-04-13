@@ -1,7 +1,7 @@
 
 ## My solutions to leet code problems.
 
-Solved 5 easy problems, 9 medium problems, and 4 hard problems.
+Solved 5 easy problems, 10 medium problems, and 4 hard problems.
 
 | # | Title | Difficulty |
 |---| ----- | ---------- |
@@ -16,6 +16,7 @@ Solved 5 easy problems, 9 medium problems, and 4 hard problems.
 |15|3sum|medium|
 |16|3sum-closest|medium|
 |23|merge-k-sorted-lists|hard|
+|24|swap-nodes-in-pairs|medium|
 |53|maximum-subarray|easy|
 |94|binary-tree-inorder-traversal|medium|
 |121|best-time-to-buy-and-sell-stock|easy|
